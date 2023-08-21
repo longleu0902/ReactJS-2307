@@ -80,15 +80,18 @@
     margin: 36px -3px;
  }
  .describe{
+    margin: 0 12px;
 
  }
 .describe-content{
     height: 150px;
     border: 1px solid;
+    padding: 12px 24px;
 
 }
 .staff{
     display: flex;
+    margin: 0 12px;
 }
 .staff-item{
     margin-right: 36px;
