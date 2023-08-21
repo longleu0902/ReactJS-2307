@@ -1,0 +1,129 @@
+/* main */
+.gird{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+.gird_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    justify-content: space-between;
+}
+.gird_column{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 14px;
+    width: 47%;
+}
+.gird_column-2-4{
+    width: 19%;
+    margin: 0px 4px;
+
+}
+/* body */
+.header{
+    height: 70px;
+    background-color: bisque;
+    padding: 4px 12px;
+    margin: 12px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    background: 2px crimson;
+    border-radius: 20px;
+    margin: 4px 12px;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+}
+.header-item i{
+    font-size: 20px;
+    margin: 0px 16px;
+    padding: 0 12px;
+
+}
+.container{
+    margin: 0 16px;
+
+}
+.home-product{
+
+}
+.home-product-item{
+    text-decoration: none;
+
+
+}
+.home-product-item-2{
+
+}
+.home-product-item_img{
+    border: 2px solid #CCC;
+    padding: 6px 6px;
+    margin: 12px 0;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .home-infomation{
+
+ }
+ .color-design{
+
+ }
+ .price-discount{
+    margin: 24px 0;
+ }
+ .cars{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+ }
+ .comments{
+    margin: 12px 24px;
+ }
+ .Rating-comment{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #000;
+    padding: 0 12px;
+
+ }
+ .Rating-comment-cmt{
+    padding: 0 12px;
+
+ }
+ .rating{
+    margin-top: 12px;
+
+ }
+ .rating [class*="ti-"] {
+    color: rgb(211, 211, 3);
+    font-size: 25px;
+    margin: 0px 4px;
+
+ }
+ .footer{
+    height: 100px;
+    background-color: bisque;
+    padding: 4px 12px;
+    margin: 12px 12px;
+}
+.footer h4{
+    margin: 12px 28px;
+}
+.footer-item{
+    display: inline;
+    padding: 4px 12px;
+    margin: 12px 12px;
+}
+ 
